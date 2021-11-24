@@ -1,0 +1,56 @@
+/*Selector Universal*/
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*selector de etiqueta*/
+
+body {
+  background-color:white;
+}
+
+/*selector de etiqueta*/
+h1 {
+  background-color: royalblue;
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+a {
+  font-size: 18px;
+  color: green;
+  text-decoration: none;
+}
+
+footer a {
+  color: red;
+}
+
+/*Selector de id*/
+#descripcion, #titulo {
+    border: 8px solid black;
+    padding: 15px;
+}   
+
+#titulo {
+    background: blue;
+    border: 8px dash  black;
+
+/*Selector de clase*/
+}
+.parrafo {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold; /*texto en negritas*/
+}
+
+.parrafo1, .parrafo3{
+   
+    color: white;
+    padding: 10px;
+}
+
